@@ -21,6 +21,7 @@ bower_components
 build/Release
 
 # Dependency directories
+.docz
 node_modules/
 jspm_packages/
 typings/
@@ -30,20 +31,37 @@ packages/landing/
 packages/landing-gatsby/node_modules/
 packages/landing-gatsby/public/
 
+# testing
+/coverage
+
+# production
+/build
+/dist
+.next
+next
+out
+
+#server file
+packages/functions/next
+.firebase
+.firebaserc
+
+#submodule
+packages/reusecore
+now.json
+firebase.json
 
 # Optional eslint cache
 .eslintcache
-
-
 
 # Yarn Integrity file
 .yarn-integrity
 
 # dotenv environment variables file
 .env
-.next
+
 # packages/*/yarn.lock
-# packages/*/package-lock.json
+packages/*/package-lock.json
 node_modules
 examples/biz-website/public/
 examples/blog/public/
@@ -68,8 +86,8 @@ node_modules/
 .serverless/
 
 # lock files
-# yarn.lock
-# package-lock.json
+yarn.lock
+package-lock.json
 
 # starters are special; we want to persist the lock files
 !starters/*/package-lock.json
