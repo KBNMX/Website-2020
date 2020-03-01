@@ -1,0 +1,79 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+lib-cov
+coverage
+junit.xml
+.nyc_output
+.grunt
+bower_components
+.lock-wscript
+*.tgz
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+jspm_packages/
+typings/
+.npm
+nginx/
+packages/landing/
+packages/landing-gatsby/node_modules/
+packages/landing-gatsby/public/
+
+
+# Optional eslint cache
+.eslintcache
+
+
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.next
+# packages/*/yarn.lock
+# packages/*/package-lock.json
+node_modules
+examples/biz-website/public/
+examples/blog/public/
+*.un~
+dist
+bin/published.js
+
+# Build Path of Test Fixtures
+.gatsby-context.js
+.DS_Store
+public/
+node_modules/
+.cache/
+.netlify
+
+# IDE specific
+.idea/
+.vscode/
+*.sw*
+
+# misc
+.serverless/
+
+# lock files
+# yarn.lock
+# package-lock.json
+
+# starters are special; we want to persist the lock files
+!starters/*/package-lock.json
+!themes/gatsby-starter-blog-theme/package-lock.json
+!themes/gatsby-starter-notes-theme/package-lock.json
+!themes/gatsby-starter-theme/package-lock.json
+!themes/gatsby-starter-theme-workspace/package-lock.json
