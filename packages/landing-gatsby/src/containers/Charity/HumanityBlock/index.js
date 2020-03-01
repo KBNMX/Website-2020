@@ -5,6 +5,8 @@ import Box from 'common/src/components/Box';
 import Image from 'common/src/components/Image';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
+import Fade from 'react-reveal/Fade';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Container from 'common/src/components/UI/Container';
 import BlockWrapper, {
   ContentWrapper,
@@ -23,7 +25,8 @@ const HumanityBlock = ({ row, col }) => {
           }
           slogan
           title
-          text
+          texto
+          texto2
           lists {
             id
             text
@@ -33,32 +36,50 @@ const HumanityBlock = ({ row, col }) => {
     }
   `);
 
-  const { slogan, title, text, lists, image } = data.charityJson.humanityData;
+  const {
+    slogan,
+    title,
+    texto,
+    texto2,
+    lists,
+    image,
+  } = data.charityJson.humanityData;
+
+  const textoa = texto => {
+    return { __html: texto };
+  };
+
+  const textob = texto2 => {
+    return { __html: texto2 };
+  };
 
   return (
-    <BlockWrapper id="socialFundraising">
+    <BlockWrapper id="inicio">
       <Container width="1260px">
         <Box className="row" {...row}>
           <Box className="col" {...col}>
             <ImageWrapper>
-              <Image src={image.publicURL} alt="Charity Landing" />
+              <Fade left delay={30}>
+                <Image src={image.publicURL} alt="Sobre nosotros KebabNation" />
+              </Fade>
             </ImageWrapper>
           </Box>
           <Box className="col" {...col}>
             <ContentWrapper>
-              <Heading as="h5" content={slogan} />
+              {/* <Heading as="h5" content={slogan} /> */}
               <Heading content={title} />
-              <Text content={text} />
+              <p dangerouslySetInnerHTML={textoa(texto)} />
+              <p dangerouslySetInnerHTML={textob(texto2)} />
               <List>
                 {lists.map(item => (
                   <Item key={`list_key${item.id}`}>{item.text}</Item>
                 ))}
               </List>
 
-              <a className="learn__more-btn" href="#1">
+              <AnchorLink href="#panes" offset="81" className="learn__more-btn">
                 <span className="hyphen" />
-                <span className="btn_text">Learn More </span>
-              </a>
+                <span className="btn_text">Conoce nuestros Këbabs</span>
+              </AnchorLink>
             </ContentWrapper>
           </Box>
         </Box>

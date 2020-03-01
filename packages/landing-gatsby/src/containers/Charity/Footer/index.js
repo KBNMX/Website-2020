@@ -4,7 +4,7 @@ import { useStaticQuery, graphql, Link } from 'gatsby';
 import { Icon } from 'react-icons-kit';
 import { linkedin } from 'react-icons-kit/fa/linkedin';
 import { facebook } from 'react-icons-kit/fa/facebook';
-import { twitter } from 'react-icons-kit/fa/twitter';
+import { instagram } from 'react-icons-kit/fa/instagram';
 import { github } from 'react-icons-kit/fa/github';
 import Box from 'common/src/components/Box';
 import Text from 'common/src/components/Text';
@@ -47,16 +47,16 @@ const Footer = ({ row, col, colOne, colTwo }) => {
               <Image src={LogoImage} alt="Charity" />
             </Link>
 
-            <Text className="text" content="EU: +077 1456 5924" />
-            <Text className="text" content="US: +361-541-4241" />
+            <Text className="text" content="Nápoles: 55 1456 5924" />
+            <Text className="text" content="Chapultepec: 55 1456 5924" />
             <a
               aria-label="go to mail"
-              href="mailto:hello@redq.io"
+              href="mailto:hola@kebabnation.mx"
               className="mail"
             >
-              hello@redq.io
+              hola@kebabnation.mx
             </a>
-            <SelectWrapper>
+            {/* <SelectWrapper>
               <select aria-label="language switcher">
                 <option value="english">English</option>
                 <option value="spanish">Spanish</option>
@@ -73,7 +73,7 @@ const Footer = ({ row, col, colOne, colTwo }) => {
                   transform="translate(-424.002 -10269.002)"
                 />
               </svg>
-            </SelectWrapper>
+            </SelectWrapper> */}
           </Box>
           {/* End of logo column */}
           <Box className="col-two" {...colTwo}>
@@ -105,37 +105,28 @@ const Footer = ({ row, col, colOne, colTwo }) => {
           <CopyrightText>
             <Text
               className="text"
-              content="© 2019 RedQ Inc. All Rights Reserved"
+              content="© 2020 KebabNation. Todos los derechos reservados."
             />
           </CopyrightText>
           <SocialList>
-            <li className="linkedin">
-              <a
-                href="https://www.linkedin.com/company/redq-inc"
-                aria-label="social share link"
-              >
-                <Icon icon={linkedin} />
-              </a>
-            </li>
             <li className="facebook">
               <a
-                href="https://www.facebook.com/redqinc/"
+                href="https://www.facebook.com/kebabnation/"
                 aria-label="social share link"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Icon icon={facebook} />
               </a>
             </li>
             <li className="twitter">
               <a
-                href="https://twitter.com/redqinc"
+                href="https://www.instagram.com/kebabnationmx/"
                 aria-label="social share link"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                <Icon icon={twitter} />
-              </a>
-            </li>
-            <li className="github">
-              <a href="https://github.com/RedQ" aria-label="social share link">
-                <Icon icon={github} />
+                <Icon icon={instagram} />
               </a>
             </li>
           </SocialList>

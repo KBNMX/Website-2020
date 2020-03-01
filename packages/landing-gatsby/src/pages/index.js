@@ -1,57 +1,77 @@
 import React, { Fragment } from 'react';
 import Sticky from 'react-stickynode';
 import { ThemeProvider } from 'styled-components';
-import { Modal } from '@redq/reuse-modal';
-import { agencyTheme } from 'common/src/theme/agency';
+import { charityTheme } from 'common/src/theme/charity';
 import { ResetCSS } from 'common/src/assets/css/style';
-import { GlobalStyle, AgencyWrapper } from '../containers/Agency/agency.style';
-import Navbar from '../containers/Agency/Navbar';
-import BannerSection from '../containers/Agency/BannerSection';
-import FeatureSection from '../containers/Agency/FeatureSection';
-import AboutUsSection from '../containers/Agency/AboutUsSection';
-import WorkHistory from '../containers/Agency/WorkHistory';
-import BlogSection from '../containers/Agency/BlogSection';
-import TestimonialSection from '../containers/Agency/TestimonialSection';
-import TeamSection from '../containers/Agency/TeamSection';
-import VideoSection from '../containers/Agency/VideoSection';
-import FaqSection from '../containers/Agency/FaqSection';
-import NewsletterSection from '../containers/Agency/NewsletterSection';
-import QualitySection from '../containers/Agency/QualitySection';
-import Footer from '../containers/Agency/Footer';
 import { DrawerProvider } from 'common/src/contexts/DrawerContext';
-import '@redq/reuse-modal/es/index.css';
+import Navbar from '../containers/Charity/Navbar';
+import DrawerSection from '../containers/Charity/DrawerSection';
+import BannerSection from '../containers/Charity/BannerSection';
+import HumanityBlock from '../containers/Charity/HumanityBlock';
+import ClientBlock from '../containers/Charity/ClientBlock';
+import BranchSection from '../containers/Charity/BranchSection';
+import AboutUs from '../containers/Charity/AboutUs';
+import TituloInfo from '../containers/Charity/TituloInfo';
+import InfoSection from '../containers/Charity/Info2';
+import News from '../containers/Charity/News';
+import FeatureSection from '../containers/Charity/FeatureSection';
+import BlogSection from '../containers/Charity/BlogSection';
+import Testimonial from '../containers/Charity/Testimonial';
+import Footer from '../containers/Charity/Footer';
+import WorkSection from '../containers/Charity/WorkSection';
+// import Project from '../containers/Charity/Project';
+// import MilestoneBlock from '../containers/Charity/MilestoneBlock';
+// import PromotionBlock from '../containers/Charity/PromotionBlock';
+// import DonateSection from '../containers/Charity/DonateSection';
+// import MapSection from '../containers/Charity/MapSection';
+// import FundraiserSection from '../containers/Charity/FundraiserSection';
+import {
+  GlobalStyle,
+  CharityWrapper,
+  ContentWrapper,
+} from '../containers/Charity/charity.style';
 import SEO from '../components/seo';
 
 export default () => {
   return (
-    <ThemeProvider theme={agencyTheme}>
+    <ThemeProvider theme={charityTheme}>
       <Fragment>
-        <SEO title="Agency" />
-        <Modal />
+        <SEO title="KëbabNation" />
         <ResetCSS />
         <GlobalStyle />
-        {/* End of agency head section */}
-        {/* Start agency wrapper section */}
-        <AgencyWrapper>
+        {/* Start charity wrapper section */}
+        <CharityWrapper>
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
-            <DrawerProvider>
-              <Navbar />
-            </DrawerProvider>
+            <Navbar />
           </Sticky>
-          <BannerSection />
-          <FeatureSection />
-          <AboutUsSection />
-          <WorkHistory />
-          <BlogSection />
-          <QualitySection />
-          <VideoSection />
-          <TestimonialSection />
-          <TeamSection />
-          <FaqSection />
-          <NewsletterSection />
+          <DrawerProvider>
+            <DrawerSection />
+          </DrawerProvider>
+          <ContentWrapper>
+            <BannerSection />
+            <HumanityBlock />
+            <ClientBlock />
+            <BranchSection />
+            <AboutUs />
+            <TituloInfo />
+            <InfoSection />
+            <WorkSection />
+            <News />
+            <FeatureSection />
+            <BlogSection />
+            <Testimonial />
+
+            {/* <Project />
+            <MilestoneBlock />
+            <PromotionBlock />
+            <DonateSection />
+            <MapSection />
+            <FundraiserSection /> */}
+          </ContentWrapper>
+
           <Footer />
-        </AgencyWrapper>
-        {/* End of agency wrapper section */}
+        </CharityWrapper>
+        {/* End of charity wrapper section */}
       </Fragment>
     </ThemeProvider>
   );

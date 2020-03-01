@@ -12,17 +12,22 @@ const Navbar = () => {
   return (
     <NavbarWrapper className="navbar">
       <Container fullWidth={true}>
-        <Link className="logo" to="/charity">
-          <Image src={logoImage} alt="Charity React Next Landing" />
+        <Link className="logo" to="/">
+          <Image src={logoImage} alt="KëbabNation" />
         </Link>
         <MenuWrapper>
-          <AnchorLink className="smooth_scroll" href="#donate" offset={81}>
-            Help us help them
+          <AnchorLink className="smooth_scroll" href="#testimonial" offset={81}>
+            Antes de venir
           </AnchorLink>
-          <Button>
-            <span className="text">SPREAD</span>
-            <Image src={heartImage} alt="Charity Landing" />
-          </Button>
+          <a
+            href="https://www.facebook.com/pg/kebabnation/reviews/"
+            target="_blank"
+          >
+            <Button>
+              <span className="text">LEE LAS OPINIONES</span>
+              <Image src={heartImage} alt="Charity Landing" />
+            </Button>
+          </a>
         </MenuWrapper>
       </Container>
     </NavbarWrapper>

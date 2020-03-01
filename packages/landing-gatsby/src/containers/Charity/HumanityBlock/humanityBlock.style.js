@@ -49,7 +49,7 @@ export const ContentWrapper = styled.div`
     line-height: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    color: ${themeGet('colors.secondary2', '#EE2541')};
+    color: ${themeGet('colors.secondary2', '#DB1525')};
     margin-bottom: 30px;
     @media only screen and (max-width: 1440px) {
       margin-bottom: 27px;
@@ -104,6 +104,9 @@ export const ContentWrapper = styled.div`
     @media only screen and (max-width: 991px) {
       margin-bottom: 20px;
     }
+    a {
+      color: ${themeGet('colors.secondary', '#D50032')};
+    }
   }
 
   .learn__more-btn {
@@ -132,6 +135,8 @@ export const Item = styled.li`
   font-size: 20px;
   line-height: 40px;
   padding: 10px 0;
+  list-style-type: square;
+  list-style-position: inside;
   color: ${themeGet('colors.heading', '#060F1E')};
   @media only screen and (max-width: 1440px) {
     font-size: 18px;

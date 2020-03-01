@@ -37,7 +37,7 @@ const BranchSection = () => {
   };
 
   return (
-    <SectionWrapper id="branch">
+    <SectionWrapper id="panes">
       <Tab active={2}>
         {data.charityJson.branchData.map(item => (
           <Panel
@@ -53,7 +53,7 @@ const BranchSection = () => {
                         ? item.image.childImageSharp.fluid
                         : {}
                     }
-                    alt={`Charity landing image ${item.id}`}
+                    alt={`KebabNation landing image ${item.id}`}
                     className="tab_image"
                   />
                 </div>
@@ -62,8 +62,13 @@ const BranchSection = () => {
                 <Heading as="h4" content={item.slogan} />
                 <h2 dangerouslySetInnerHTML={title(item.title)} />
                 <Text content={item.description} />
-                <a className="learn__more-btn" href={item.linkUrl}>
-                  <span className="hyphen" />
+                <a
+                  className="learn__more-btn"
+                  href={item.linkUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {/* <span className="hyphen" /> */}
                   <span className="btn_text">{item.linkText}</span>
                 </a>
               </div>

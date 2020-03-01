@@ -346,35 +346,44 @@
     ]
   },
   "testimonial": {
-    "slogan": "TESTIMONIAL",
-    "title": "Meet Client Satisfaction by using product",
+    "slogan": "OPINIONES Y RECOMENDACIONES",
+    "title": "Los KebabLovers hablan de nosotros.",
     "reviews": [
       {
         "id": 1,
-        "title": "Modern look & trending design",
-        "description": "Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.",
-        "avatar": "https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg",
-        "name": "Jon Doe",
-        "designation": "CEO of RedQ Inc.",
+        "title": "100% recomendable",
+        "description": "Muy rico todo, las papas turcas son geniales, el dürüm y el döner estuvieron muy bien. El servicio rápido y bien, 100 % recomendable.",
+        "avatar": "https://fastly.4sqi.net/img/user/260x260/GHXKA2HBMYGWXNHV.png",
+        "name": "memnoch101",
+        "designation": "FourSquare",
         "review": 4
       },
       {
         "id": 2,
-        "title": "User friendly & Customizable",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur adipisicing.",
-        "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
-        "name": "Jeny Doe",
-        "designation": "Co Founder of RedQ Inc.",
+        "title": "Diferente y saludable",
+        "description": "Muy buenos en sabor, calidad, presentacion, precio y servicio. Tienen excelente atención tanto en el lugar como para llevar. Una excelente opción para cambiar la dieta y lo mejor es que tienen un toque mexicano con sus salsas",
+        "avatar": "https://media-cdn.tripadvisor.com/media/photo-l/14/95/59/76/alejandra-o.jpg",
+        "name": "Alejandra O.",
+        "designation": "TripAdvisor",
         "review": 5
       },
       {
         "id": 3,
-        "title": "User friendly & Customizable",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur adipisicing.",
-        "avatar": "https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg",
-        "name": "Jon Doe",
-        "designation": "Co Founder of RedQ Inc.",
+        "title": "Un poco pequeño el lugar pero recomendable todo",
+        "description": "La comida excelente, la atención del mesero muy buena y también la explicación que te dan de la preparación de los platillos excelente. Un poco pequeño el lugar pero recomendable todo. Precio accesible 👌🏻😋",
+        "avatar": "https://media-cdn.tripadvisor.com/media/photo-l/01/2e/70/6d/avatar050.jpg",
+        "name": "Chp Marelyn",
+        "designation": "Facebook",
         "review": 5
+      },
+      {
+        "id": 4,
+        "title": "Excelente lugar, delicioso y buena atención",
+        "description": "La atención es muy buena. Los chicos se esmeran porque tomes una buena decisión, la pases bien y te enamores del lugar. Muy impresionante. Los platillos son deliciosos, ya son mis favoritos y eso que he buscado este tipo de comida por diversas partes de la ciudad. Los alimentos son de buena calidad y el precio es justo. Más barato que muchos sitios con menor calidad. Muy recomendable.",
+        "avatar": "https://media-cdn.tripadvisor.com/media/photo-l/01/2a/fd/95/avatar.jpg",
+        "name": "Erwin C.",
+        "designation": "TripAdvisor",
+        "review": 4
       }
     ]
   },

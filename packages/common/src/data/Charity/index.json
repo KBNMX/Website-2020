@@ -1,184 +1,173 @@
 {
   "menuItems": [
     {
-      "label": "Feature",
+      "label": "Inicio",
+      "path": "#inicio",
+      "offset": "81"
+    },
+    {
+      "label": "Nuestros Këbabs",
+      "path": "#panes",
+      "offset": "100"
+    },
+    {
+      "label": "Nuestros origenes",
+      "path": "#aboutUs",
+      "offset": "81"
+    },
+    {
+      "label": "Lo que somos",
       "path": "#feature",
       "offset": "81"
     },
     {
-      "label": "Our Branch",
-      "path": "#branch",
-      "offset": "100"
-    },
-    {
-      "label": "How We Works",
-      "path": "#work",
+      "label": "Sucursales",
+      "path": "#sucursales",
       "offset": "81"
     },
     {
-      "label": "Our Milestone",
-      "path": "#milestone",
-      "offset": "81"
-    },
-    {
-      "label": "Donate Us",
-      "path": "#donate",
-      "offset": "81"
-    },
-    {
-      "label": "Fundraisers",
-      "path": "#fundraisers",
-      "offset": "81"
-    },
-    {
-      "label": "Our Blog",
-      "path": "#blog",
+      "label": "Opiniones y recomendaciones",
+      "path": "#testimonial",
       "offset": "81"
     }
   ],
   "bannerSlides": [
     {
       "id": 1,
-      "thumb_url": "../../assets/image/charity/banner/slide1.png"
+      "thumb_url": "../../assets/image/charity/banner/slide1.jpg"
     },
     {
       "id": 2,
-      "thumb_url": "../../assets/image/charity/banner/slide2.png"
+      "thumb_url": "../../assets/image/charity/banner/slide2.jpg"
     },
     {
       "id": 3,
-      "thumb_url": "../../assets/image/charity/banner/slide3.png"
+      "thumb_url": "../../assets/image/charity/banner/slide3.jpg"
     },
     {
       "id": 4,
       "thumb_url": "../../assets/image/charity/banner/slide4.jpg"
     }
   ],
+  "tituloInfo": {
+    "title": "Nuestros Panes",
+    "slogan": "Tenemos 5 tipos de Pan Árabe. Estos representan diferentes regiones en el mediterráneo para que tu puedas elegir la combinación que más te guste. Tres de ellos están hechos en casa y dos más con panaderos especializados, pero todos ellos horneados de manera artesanal, con diferentes técnicas culinarias y sabores."
+  },
   "featureData": {
-    "title": "They Care, Do You?",
-    "slogan": "Here is how you can get involved and make a change.",
+    "title": "Lo que somos y nos apasiona",
+    "slogan": "En KëbabNation nos apasiona la comida y queremos que la disfrutes al máximo. Nos encanta que goces de una gran experiencia, ordenando un Döner Gourmet, un Gyro, Falafel, agua de la casa o un café turco, en un ambiente entre amigos, familia/pareja o mascota. Por eso vigilamos cada detalle en nuestras sucursales y valoramos cada momento que pasamos atendiendo a nuestros clientes y amigos.",
     "features": [
       {
         "id": 1,
         "icon": "../../assets/image/charity/feature/1.svg",
-        "title": "Sponsor A Water",
-        "description": "If you want to change the world, one wish at a time, help kids"
+        "title": "Pet Friendly",
+        "description": "¿Eres amantes de los animales? Nosotros también. Sean todos bienvenidos."
       },
       {
         "id": 2,
         "icon": "../../assets/image/charity/feature/2.svg",
-        "title": "Pledge For A Cause",
-        "description": "If you want to change the world, one wish at a time."
+        "title": "Ambiente familiar",
+        "description": "Puedes venir solo o acompañado. Siempre una experiencia agradable."
       },
       {
         "id": 3,
         "icon": "../../assets/image/charity/feature/3.svg",
-        "title": "Buy a Coffee",
-        "description": "If you want to change the world, one wish at a time."
+        "title": "Un Café sin igual",
+        "description": "Si vienes... no dejes de probar el Café Turco. Es todo un espectáculo."
       },
       {
         "id": 4,
         "icon": "../../assets/image/charity/feature/4.svg",
-        "title": "Volunteer With Us",
-        "description": "If you want to change the world, one wish at a time, help kids"
+        "title": "Comunidad",
+        "description": "De la mano de nosotros conoce la experiencia KëbabNation #soyKebabLover"
       },
       {
         "id": 5,
-        "icon": "../../assets/image/charity/feature/5.svg",
-        "title": "Partner With Us",
-        "description": "If you want to change the world, one wish at."
+        "icon": "../../assets/image/charity/feature/6.svg",
+        "title": "Opciones veganas",
+        "description": "Elige una comida que se adapte a tu estilo de vida vegetariano / vegano."
       },
       {
         "id": 6,
-        "icon": "../../assets/image/charity/feature/6.svg",
-        "title": "Help us for Educational ",
-        "description": "If you want to change the world, one wish at a time."
+        "icon": "../../assets/image/charity/feature/5.svg",
+        "title": "Somos incluyentes",
+        "description": "A través de la creatividad y apertura incorporamos diversas opciones para ti."
       }
     ]
   },
   "branchData": [
     {
       "id": 1,
-      "menuItem": "Afganistan",
-      "image": "../../assets/image/charity/branch/image1.png",
-      "slogan": "WITH YOUR LOVE",
-      "title": "We’ve funded <strong>12,925</strong> water projects for <strong>5.2 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
+      "menuItem": "El Gyro",
+      "image": "../../assets/image/charity/branch/gyro-griego.jpg",
+      "slogan": "PAN GYRO",
+      "title": "Clásico pan estilo griego <strong>cuadrado</strong>, esponjoso y <strong>suave</strong>, con un toque a mantequilla.",
+      "description": "Lo puedes disfrutar en sabor natural (clásico), finas hierbas o chipotle (shh no pica).",
+      "linkUrl": "https://nationkv2.cloudwaitress.com/",
+      "linkText": "PÍDELO A DOMICILIO"
     },
     {
       "id": 2,
-      "menuItem": "ukraine",
-      "image": "../../assets/image/charity/branch/image2.png",
-      "slogan": "WITH YOUR CARE",
-      "title": "We’ve funded <strong>19,571</strong> water projects for <strong>6.7 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
+      "menuItem": "El Döner",
+      "image": "../../assets/image/charity/branch/doner-street.jpg",
+      "slogan": "PAN DÖNER",
+      "title": "Entre los panes tipo pita, este es el más <strong>esponjoso</strong>, te dejará satisfecho a pesar de su <strong>migaja ligera</strong>.",
+      "description": "Nos aseguramos de que el pan está en su punto porque se infla al momento de calentarlo.",
+      "linkUrl": "https://nationkv2.cloudwaitress.com/",
+      "linkText": "PÍDELO A DOMICILIO"
     },
     {
       "id": 3,
-      "menuItem": "Africa",
-      "image": "../../assets/image/charity/branch/image.png",
-      "slogan": "WITH YOUR HELP",
-      "title": "We’ve funded <strong>29,725</strong> water projects for <strong>8.4 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
+      "menuItem": "Nuestro Döner Gourmet",
+      "image": "../../assets/image/charity/branch/doner-gourmet.jpg",
+      "slogan": "PAN DÖNER GOURMET",
+      "title": "Para los exigentes un pan que <strong>sobresale</strong>, nuestro Döner Gourmet, ¡lo tienes que <strong>probar!</strong>.",
+      "description": "Receta de la casa, lo encontrarás en 2 sabores, romero-chia y 5 chiles.",
+      "linkUrl": "https://nationkv2.cloudwaitress.com/",
+      "linkText": "PÍDELO A DOMICILIO"
     },
     {
       "id": 4,
-      "menuItem": "India",
-      "image": "../../assets/image/charity/branch/image3.png",
-      "slogan": "WITH YOUR LOVE",
-      "title": "We’ve funded <strong>10,792</strong> water projects for <strong>4.9 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
+      "menuItem": "El Persa",
+      "image": "../../assets/image/charity/branch/persa-london.jpg",
+      "slogan": "PAN PERSA",
+      "title": "Pan <strong>vegano</strong> hecho de masa madre, su textura <strong>esponjosa</strong> es porque lo reposamos día y medio!",
+      "description": "Al calentarlo su corteza es crujiente, y suave por dentro. De forma triangular se presenta abierto estilo almeja.",
+      "linkUrl": "https://nationkv2.cloudwaitress.com/",
+      "linkText": "PÍDELO A DOMICILIO"
     },
     {
       "id": 5,
-      "menuItem": "South Sudan",
-      "image": "../../assets/image/charity/branch/image4.png",
-      "slogan": "WITH YOUR CARE",
-      "title": "We’ve funded <strong>10,071</strong> water projects for <strong>3.7 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
-    },
-    {
-      "id": 6,
-      "menuItem": "Bhutan",
-      "image": "../../assets/image/charity/branch/image5.png",
-      "slogan": "WITH YOUR HELP",
-      "title": "We’ve funded <strong>19,792</strong> water projects for <strong>7.9 million</strong> people around the world.",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "linkUrl": "#1",
-      "linkText": "SEE MORE OF OUR IMPACT"
+      "menuItem": "El Dürum",
+      "image": "../../assets/image/charity/branch/durum-ny.jpg",
+      "slogan": "PAN DÜRUM",
+      "title": "El <strong>magnánimo</strong> Dürum, el más indulgente. Parecido al pan pita pero <strong>de 33 cm.</strong>",
+      "description": "Todos los ingredientes le dan un sabor suave, envueltos por el pan formando un cono.",
+      "linkUrl": "https://nationkv2.cloudwaitress.com/",
+      "linkText": "PÍDELO A DOMICILIO"
     }
   ],
   "workData": {
-    "title": "How We Works",
-    "slogan": "Water is a non-profit organization bringing clean and safe drinking water to people in developing countries",
+    "title": "¿Cómo armar tu Këbab?",
+    "slogan": " ",
     "features": [
       {
         "id": 1,
-        "icon": "../../assets/image/charity/map-pin.svg",
-        "title": "We prove every project",
-        "description": "We track every dollar you raise, and show the projects you helped fund with photos."
+        "icon": "../../assets/image/charity/paso1.svg",
+        "title": "5 tipos de Pan Árabe",
+        "description": "Elegir la combinación que más te guste. Tres de ellos están hechos en casa y dos más con panaderos especializados."
       },
       {
         "id": 2,
-        "icon": "../../assets/image/charity/search-icon.svg",
-        "title": "We’re an open book",
-        "description": "We’ve consistently received the highest grades available for accountability."
+        "icon": "../../assets/image/charity/paso2.svg",
+        "title": "5 opciones de proteína",
+        "description": "Elige el relleno de tu Këbab que se adapte a tu dieta y estilo de vida: carnivoro, vegetariano / vegano."
       },
       {
         "id": 3,
-        "icon": "../../assets/image/charity/icon-100p.svg",
-        "title": "100% goes to the field",
-        "description": "Private donors cover our operating costs so 100% of your money can fund water projects."
+        "icon": "../../assets/image/charity/paso3.svg",
+        "title": "Más de 10 opciones",
+        "description": "Elige entre elote, cebolla morada, aceituna negra, queso de cabra, hummus garbanzo, jocoque, entre otros."
       }
     ]
   },
@@ -210,22 +199,23 @@
     ]
   },
   "humanityData": {
-    "image": "../../assets/image/charity/humanity-glob.png",
-    "slogan": "ONLINE SOCIAL FUNDRAISING",
-    "title": "We need your help to promotr humanity",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.",
+    "image": "../../assets/image/charity/fachada-kebabnation.jpg",
+    "slogan": "LOS MEJORES KEBABS DE LA CIUDAD",
+    "title": "Bienvenido a los mejores Këbabs de la ciudad",
+    "texto": "Viaja a través de nuestro menú y conoce nuevos sabores en un gran ambiente. En KëbabNation <a href='#sucursales' className='text__btn'><strong>Nápoles</strong></a> y/o <a href='#sucursales' className='text__btn'><strong>San Miguel Chapultepec</strong></a>.",
+    "texto2": "O navega en esta página donde tienes toda nuestra información, ¿prefieres <a href='https://www.facebook.com/pg/kebabnation/' className='text__btn' target='_blank'><strong>Facebook</strong></a>, para leer algunos de los reviews? o <a href='https://www.instagram.com/kebabnationmx/' className='text__btn' target='_blank'><strong>Instagram</strong></a> para ver más de nuestros platos.",
     "lists": [
       {
         "id": 1,
-        "text": "Let them drink pure"
+        "text": "Ven con tu familia o compañeros de oficina"
       },
       {
         "id": 2,
-        "text": "Ensure them medicare"
+        "text": "Carnivoros y veganos bienvenidos"
       },
       {
         "id": 3,
-        "text": "create opportunity of education"
+        "text": "Nuestra calidez es la mejor"
       }
     ]
   },
@@ -284,160 +274,118 @@
   "posts": [
     {
       "id": 1,
-      "title": "Uganda Embraces South Sudanese Refugees, For Now",
-      "excerpt": "72 million children around the world are not enrolled in school. Concern Worldwide focuses on providing basic education to those…",
+      "title": "Sucursal San Miguel Chapultepec",
+      "excerpt": "Nos ubicamos en Gobernador Agustín Vicente Eguia #40, en la colonia San Miguel Chapultepec, en la CDMX.",
+      "horarios": "Horario: Lunes a sábado de 12:00 pm a 9:00 pm y Domingo de 12:00 pm a 7:00 pm",
+      "telefono": "Tel: <a href='tel:55-6728-6433'>55-6728-6433</a>",
       "thumbUrl": "../../assets/image/charity/blog/thumb-1.png",
-      "btnText": "Learn More ",
-      "btnUrl": "#1"
+      "btnText": "ABRIR UBICACIÓN EN MAPS ",
+      "btnUrl": "https://goo.gl/maps/E2mPs4VRaVVYhnrC9"
     },
     {
       "id": 2,
-      "title": "BRITs Week 2019 together with O2 is here",
-      "excerpt": "72 million children around the world are not enrolled in school. Concern Worldwide focuses on providing basic education to those…",
+      "title": "Sucursal Nápoles",
+      "excerpt": "Nos ubicamos en San Antonio #62, Col. Nápoles, Benito Juárez, en la CDMX. Tel: (55)12341234",
+      "horarios": "Horario: Lunes a miércoles de 12:00 pm a 9:00 pm; Jueves a sábado de 12:00 pm a 10:00 pm; Domingo de 12:00 pm a 7:00 pm",
+      "telefono": "Tels: <a href='tel:55-7160-1474'>55-7160-1474</a> y <a href='tel:55-7258-9163'>55-7258-9163</a>",
       "thumbUrl": "../../assets/image/charity/blog/thumb-2.png",
-      "btnText": "Learn More ",
-      "btnUrl": "#1"
+      "btnText": "ABRIR UBICACIÓN EN MAPS ",
+      "btnUrl": "https://goo.gl/maps/EH2XA13HqnUyuNyLA"
     }
   ],
   "clients": [
     {
       "id": 1,
       "logo": "../../assets/image/charity/clients/1.png",
-      "name": "windows",
+      "name": "Carne 100% fresca",
       "link": "#1"
     },
     {
       "id": 2,
       "logo": "../../assets/image/charity/clients/2.png",
-      "name": "airbnb",
+      "name": "Low Carb",
       "link": "#2"
     },
     {
       "id": 3,
       "logo": "../../assets/image/charity/clients/3.png",
-      "name": "adidas",
+      "name": "Opciones veganas",
       "link": "#3"
     },
     {
       "id": 4,
       "logo": "../../assets/image/charity/clients/4.png",
-      "name": "ibm",
+      "name": "Pet Friendly",
       "link": "#4"
     },
     {
       "id": 5,
       "logo": "../../assets/image/charity/clients/5.png",
-      "name": "amazon",
+      "name": "Incluyente",
       "link": "#5"
-    },
-    {
-      "id": 6,
-      "logo": "../../assets/image/charity/clients/6.png",
-      "name": "google",
-      "link": "#6"
     }
   ],
   "menuWidgets": [
     {
       "id": 1,
-      "title": "FUNDRAISE FOR",
+      "title": "Nuestro Menú",
       "menu": [
         {
           "id": 1,
-          "text": "Medical",
-          "link": "#1"
+          "text": "Kebabs y Falafel",
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 2,
-          "text": "Emergency",
-          "link": "#1"
+          "text": "Tacos Árabes",
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 3,
-          "text": "Memorial",
-          "link": "#1"
-        },
-        {
-          "id": 4,
-          "text": "Education",
-          "link": "#1"
-        },
-        {
-          "id": 5,
-          "text": "Charity",
-          "link": "#1"
-        },
-        {
-          "id": 6,
-          "text": "Nonprofit organization",
-          "link": "#1"
+          "text": "Costras Turcas ",
+          "link": "https://nationkv2.cloudwaitress.com/"
         }
       ]
-    },
-    {
+        },
+        {
       "id": 2,
-      "title": "LEARN MORE",
+      "title": "Extras",
       "menu": [
         {
           "id": 1,
-          "text": "How invisiblechildren works",
-          "link": "#1"
+          "text": "Papas / Extras",
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 2,
-          "text": "Pricing and Fees",
-          "link": "#1"
+          "text": "Ensaladas",
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 3,
-          "text": "Common questions",
-          "link": "#1"
-        },
-        {
-          "id": 4,
-          "text": "Success stories",
-          "link": "#1"
-        },
-        {
-          "id": 5,
-          "text": "Supported countries",
-          "link": "#1"
+          "text": "Bebidas",
+          "link": "https://nationkv2.cloudwaitress.com/"
         }
       ]
     },
     {
       "id": 3,
-      "title": "RESOURCES",
+      "title": "Cafés",
       "menu": [
         {
           "id": 1,
-          "text": "Help center",
-          "link": "#1"
+          "text": "Americano",
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 2,
-          "text": "Blog",
-          "link": "#1"
+          "text": "Aromático",
+          "link": "https://nationkv2.cloudwaitress.com/"
         },
         {
           "id": 3,
-          "text": "GoFundMe Stories",
-          "link": "#1"
-        },
-        {
-          "id": 4,
-          "text": "Press center",
-          "link": "#1"
-        },
-        {
-          "id": 5,
-          "text": "Careers",
-          "link": "#1"
-        },
-        {
-          "id": 6,
-          "text": "About",
-          "link": "#1"
+          "text": "Turco",
+          "link": "https://nationkv2.cloudwaitress.com/"
         }
       ]
     }
@@ -453,5 +401,175 @@
       "text": "Terms and Conditions",
       "link": "1#"
     }
+  ],
+  "aboutData": {
+    "thumb_url": "../../assets/image/charity/about_parent.png",
+    "title": "Y todo comenzó así.",
+    "text": "Un joven mexicano que se encontró entre diferentes culturas aprendió que el mundo es más pequeño de lo que parece y fue creando el sueño de dar a conocer esto a través de la gastronomía árabe.​",
+    "text2": "Con el paso de los años se encontró a un grupo de emprendedores con la misma hambre de crear un concepto innovador y al paso de unos meses crearon KëbabNation.​"
+  },
+  "testimonial": {
+    "slogan": "OPINIONES Y RECOMENDACIONES",
+    "title": "Los KebabLovers hablan de nosotros.",
+    "reviews": [
+      {
+        "id": 1,
+        "title": "100% recomendable",
+        "description": "Muy rico todo, las papas turcas son geniales, el dürüm y el döner estuvieron muy bien. El servicio rápido y bien, 100 % recomendable.",
+        "avatar": "https://fastly.4sqi.net/img/user/260x260/GHXKA2HBMYGWXNHV.png",
+        "name": "memnoch101",
+        "designation": "FourSquare",
+        "url": "https://foursquare.com/item/5bd4f78aaa6c95002c7ae184",
+        "review": 4
+      },
+      {
+        "id": 2,
+        "title": "Diferente y saludable",
+        "description": "Muy buenos en sabor, calidad, presentacion, precio y servicio. Tienen excelente atención tanto en el lugar como para llevar. Una excelente opción para cambiar la dieta y lo mejor es que tienen un toque mexicano con sus salsas",
+        "avatar": "https://media-cdn.tripadvisor.com/media/photo-l/14/95/59/76/alejandra-o.jpg",
+        "name": "Alejandra O.",
+        "designation": "TripAdvisor",
+        "url": "https://www.tripadvisor.com.mx/ShowUserReviews-g150800-d13370405-r648778975-Kebab_Nation-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+        "review": 5
+      },
+      {
+        "id": 3,
+        "title": "Un poco pequeño el lugar pero recomendable todo",
+        "description": "La comida excelente, la atención del mesero muy buena y también la explicación que te dan de la preparación de los platillos excelente. Un poco pequeño el lugar pero recomendable todo. Precio accesible 👌🏻😋",
+        "avatar": "https://media-cdn.tripadvisor.com/media/photo-l/01/2e/70/6d/avatar050.jpg",
+        "name": "Chp Marelyn",
+        "designation": "Facebook",
+        "url": "https://www.facebook.com/marelyn.deteutli/posts/2800543383312478",
+        "review": 5
+        },
+        {
+          "id": 4,
+        "title": "Excelente lugar, delicioso y buena atención",
+        "description": "La atención es muy buena. Los chicos se esmeran porque tomes una buena decisión, la pases bien y te enamores del lugar. Muy impresionante. Los platillos son deliciosos, ya son mis favoritos y eso que he buscado este tipo de comida por diversas partes de la ciudad. Los alimentos son de buena calidad y el precio es justo. Más barato que muchos sitios con menor calidad. Muy recomendable.",
+        "avatar": "https://media-cdn.tripadvisor.com/media/photo-l/01/2a/fd/95/avatar.jpg",
+        "name": "Erwin C.",
+        "designation": "TripAdvisor",
+        "url": "https://www.tripadvisor.com.mx/ShowUserReviews-g150800-d13370405-r648829339-Kebab_Nation-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+        "review": 4
+        },
+        {
+          "id": 5,
+        "title": "Apenas lo descubrí",
+        "description": "Apenas lo descubrí, pero el gyro y el döner deliciosos, las papas turcas también, riquísimas. Y lo más importante, súper atentos, muy amables, conmigo y con mi perro 🦮😊",
+        "avatar": "https://fastly.4sqi.net/img/user/260x260/418230310_Eamuvb6x_Phdz7BpDVDWJbpnHQ8h7GrWM9q-ku6PsgEsxlQDnQ5k1Ri1ROF304Ywhgv6969n5.jpg",
+        "name": "Aline Carbajal",
+        "designation": "Foursquare",
+        "url": "https://foursquare.com/item/5b8b5746a2a6ce002c40cad1",
+        "review": 5
+      },
+      {
+        "id": 6,
+        "title": "Muy bueno",
+        "description": "La pita de falaffel muy fresca y de muy buen sabor, la mejor que he probado en México; las papas también particularmente buenas. El mesero muy atento, cortés y eficiente.",
+        "avatar": "https://media-cdn.tripadvisor.com/media/photo-l/01/e8/ec/fb/senzen.jpg",
+        "name": "SenZen",
+        "designation": "TripAdvisor",
+        "url": "https://www.tripadvisor.com.mx/ShowUserReviews-g150800-d13370405-r721495627-Kebab_Nation-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+        "review": 5
+      },
+      {
+        "id": 7,
+        "title": "¡Delicioso!",
+        "description": "Fuimos a comer el domingo en familia wow qué rico. Donner delicioso, giro de pollo también. Excelente servicio. Un lugar pequeño sin estacionamiento y con pocos lugares. Una gran opción para comer rápido o echar una chela con amigos.",
+        "avatar": "https://media-cdn.tripadvisor.com/media/photo-l/01/2e/70/6d/avatar050.jpg",
+        "name": "Errecin",
+        "designation": "TripAdvisor",
+        "url": "https://www.tripadvisor.com.mx/ShowUserReviews-g150800-d13370405-r632638376-Kebab_Nation-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+        "review": 5
+      },
+      {
+        "id": 8,
+        "title": "¡Delicioso! Bien servido",
+        "description": "Las salsas mmmm! La mayonesa vegana mmmmm! El Ayran y los Dürum fantásticos! Lo súper recomiendo. Aparte el servicio excelente, el host Hugo atento a más no poder y con el conocimiento perfecto de todo lo que sirven. Excelente servicio ⭐️⭐️⭐️⭐️🌟",
+        "avatar": "https://scontent.fmex7-1.fna.fbcdn.net/v/t1.0-1/p100x100/85139599_2427392377367354_8776934976986808320_n.jpg?_nc_cat=108&_nc_ohc=_G-0Oiqbb7AAX-_aAWZ&_nc_ht=scontent.fmex7-1.fna&_nc_tp=6&oh=43464a9ba05a28536ed27a93f52659b1&oe=5EFC614F",
+        "name": "Nelly Carrillo",
+        "designation": "Facebook",
+        "url": "https://www.facebook.com/nelly.carrillo.94/posts/2218961238210470",
+        "review": 5
+        }
+      ]
+    },
+  "newsData": [
+        {
+          "id": 1,
+      "title": "2014",
+      "excerpt": "Iniciamos con la planeación y realizamos pruebas internas del menú que serían la base para los productos y platilos que ahora se ofrecen en KëbabNation.",
+      "link_text": "Read",
+      "link_url": "#"
+        },
+        {
+          "id": 2,
+      "title": "2015",
+      "excerpt": "Iniciamos la venta en ferias, mercados de comida artesanal en México y eventos privados​.",
+      "link_text": "Read",
+      "link_url": "#"
+        },
+        {
+          "id": 3,
+      "title": "2016",
+      "excerpt": "Aperturamos la primera sucursal en San Miguel Chapultepec, manteniendo un producto de alta calidad y fomentando en los clientes el interes por la comida árabe y el concepto.",
+      "link_text": "Read",
+      "link_url": "#"
+        },
+        {
+          "id": 4,
+      "title": "2018",
+      "excerpt": "Aperturamos la sucursal Nápoles con la que buscamos consolidar los sabores en el paladar mexicano y crecer nuestra comunidad ahora llamada #kebabLovers.",
+      "link_text": "Read",
+      "link_url": "#"
+    }
+  ],
+
+  "faqPanes": [
+    {
+      "expend": true,
+      "title": "Döner",
+      "description": "Pan gordo estilo pita. Es mucho más esponjoso que el pan pita y con un migaja ligera. Sabemos que está listo cuando se infla al momento de calentarlo, después lo cortamos por una orilla y se rellena."
+        },
+        {
+      "title": "Gyro",
+      "description": "Pan cuadrado estilo griego. El más esponjoso y suave, además con un toque a mantequilla. Lo puedes disfrutar en sabor natural (clásico), finas hierbas o chipotle (no pica)."
+        },
+        {
+      "title": "Döner Gourmet",
+      "description": "Nuestro consentido, pan que enamora. Conocido como pan mediterráneo o pan de agua, es ligero y se presenta abierto estilo almeja. Es un pan vegano ya que no utiliza en su elaboración ningún producto de origen animal. Sabores: romero chia, y 5 chiles (chipotle, cascabel, chile ancho)"
+    },
+    {
+      "title": "Persa",
+      "description": "Si buscas una textura crujiente por fuera y suave por dentro este debe ser tu elección. También es un pan vegano y se hace de masa madre, se deja reposar día y medio para que tome una textura esponjosa y al calentarlo su corteza sea crujiente, tiene forma triangular, se rellena y presenta  abierto estilo almeja."
+    },
+    {
+      "title": "Dürum",
+      "description": "El magnánimo, nombrado así por nuestros #kebablovers. Es el que más se le parece al pan tipo pita, es delgado de 33 cm con sabor suave. Todos los ingredientes son envueltos por el pan formando un cono."
+    }
+  ],
+
+
+  "projectData": {
+    "title": "WORK PROCEDURE",
+    "slogan": "How We Do Our Projects",
+    "thumb_url": "../../assets/image/interior/projects/1.png",
+    "projects": [
+    {
+      "id": 1,
+        "text": "El restaurante Kebab Nation fue fundado en 2006. Todo comenzó realmente con amistades formadas en el extranjero con gente turca. Por un lado uno de los fundadores estudiaba en París, y junto con su compañera de cuarto, Bora Hazar, de origen Turco unieron experiencias sobre las semejanzas culinarias de nuestros países. Así mismo el Chef Fernando Aramburo, quien había estudiado en los Estados Unidos, también se hizo amigo de un compañero de cuarto de origen turco.",
+        "text2": "When you conduct a group project, each group member can benefit from the ideas of others and gain new insights by brainstorming together."
+    },
+    {
+      "id": 2,
+        "text": "Los inicios de su infraestructura son en Gobernador Agustín Vicente Eguia, en el corazón del tranquilo barrio de San Miguel Chapultepec. Donde tuvo buena acogida en especial para ejecutivos que se permitan experimentar sabores nuevos, ya que nos especializamos en comida árabe con toques de la cultura occidental y oriental, además de que nos esmeramos en la experiencia culinaria y el servicio que ofrecemos.",
+        "text2": "Completing a successful project requires a significant amount of time and work, which means evaluating your priorities and planning your course of action."
+      },
+      {
+        "id": 3,
+        "text": "Create a mind map to brainstorm your project to inspire new ideas. Use a simple piece of paper, poster, or whiteboard for your mind map and we write the destination of your project in the middle.We  Write down related topics, subtopics, and relevant concepts around the goal and branch from them to create and follow different tangents.",
+        "text2": "When you conduct a group project, each group member can benefit from the ideas of others and gain new insights by brainstorming together."
+    }
   ]
+}
 }

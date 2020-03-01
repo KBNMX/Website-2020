@@ -26,7 +26,7 @@ const SectionWrapper = styled.div`
 export const ImageSlider = styled.div`
   max-width: 524px;
   width: 100%;
-  height: 30px;
+  height: 60px;
   display: flex;
   align-items: center;
   flex-wrap: nowrap;
@@ -63,7 +63,7 @@ export const ImageSlider = styled.div`
 `;
 
 export const ImageSlide = styled.div`
-  height: 30px;
+  height: 60px;
   flex-shrink: 0;
   animation: ${slideShow} 20s linear infinite;
 
@@ -82,7 +82,7 @@ export const ImageSlide = styled.div`
     }
 
     &:hover {
-      filter: brightness(0.3);
+      filter: brightness(0.5);
     }
   }
 `;

@@ -21,6 +21,8 @@ const BlogSection = () => {
             publicURL
           }
           title
+          horarios
+          telefono
           excerpt
           btnUrl
           btnText
@@ -29,23 +31,33 @@ const BlogSection = () => {
     }
   `);
 
+  const textoa = telefono => {
+    return { __html: telefono };
+  };
+
   return (
-    <SectionWrapper id="blog">
+    <SectionWrapper id="sucursales">
       <Container width="1260px">
         <SectionHeader>
           <TitleArea>
-            <Heading content="Blog & News Updates" />
+            <Heading content="¿Dónde nos encontramos?" />
             <Text>
-              People around the world are raising money for what they are
-              passionate about. Get The Latest PayBear Updates
-              <a href="#1" className="link">
-                Join us on Community
-              </a>
+              Actualmente KëbabNation cuenta con dos sucursales abiertas al
+              público. ¿Qué esperas? ¡Ven a probar nuestros Këbabs!.
+              {/* <a href="#1" className="link">
+                Nuestra sucursal
+              </a> */}
             </Text>
           </TitleArea>
           <LinkArea>
-            <a href="#1" className="text__btn">
-              <span className="text">View all blog posts</span>
+            <a
+              href="https://wa.me/15530845459"
+              className="text__btn"
+              target="_blank"
+            >
+              <span className="text">
+                Escríbenos por WhatsApp: 55 3084 45459
+              </span>
               <span className="arrow" />
             </a>
           </LinkArea>
@@ -57,9 +69,16 @@ const BlogSection = () => {
               thumbUrl={item.thumbUrl.publicURL}
               title={item.title}
               excerpt={item.excerpt}
+              horarios={item.horarios}
+              telefono={item.telefono}
               link={
-                <a className="learn__more-btn" href={item.btnUrl}>
-                  <span className="hyphen"></span>
+                <a
+                  className="learn__more-btn"
+                  href={item.btnUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {/* <span className="hyphen"></span> */}
                   <span className="btn_text">{item.btnText}</span>
                 </a>
               }

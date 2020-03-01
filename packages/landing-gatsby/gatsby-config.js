@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `A react next landing page`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Këbabs, Falafel y Tacos Árabes`,
+    description: `En KëbabNation se disfruta un ambiente familiar mientras experimentas sabores nuevos del tamaño de tu apetito. Siempre delicios.`,
+    author: `@edbarrios`,
   },
   plugins: [
     {

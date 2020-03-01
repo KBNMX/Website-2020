@@ -16,7 +16,7 @@ const NavbarWrapper = styled.nav`
   }
 
   .logo {
-    max-width: 107px;
+    max-width: 150px;
     width: 100%;
   }
 `;
@@ -59,7 +59,7 @@ export const MenuWrapper = styled.div`
 export const Button = styled.button`
   border: 0;
   padding: 0;
-  min-width: 150px;
+  min-width: 200px;
   min-height: 50px;
   display: flex;
   align-items: center;
@@ -79,7 +79,7 @@ export const Button = styled.button`
   }
 
   &:hover {
-    background-color: ${themeGet('colors.primaryHover', '#ECF22F')};
+    background-color: ${themeGet('colors.yellow', '#fdb32a')};
   }
 
   img {

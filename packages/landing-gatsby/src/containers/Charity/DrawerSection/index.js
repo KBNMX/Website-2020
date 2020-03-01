@@ -87,10 +87,12 @@ const DrawerSection = () => {
             </li>
           ))}
         </Scrollspy>
-        <SpreadButton>
-          <span className="text">SPREAD</span>
-          <Image src={heartImage} alt="Charity Landing" />
-        </SpreadButton>
+        <a href="https://www.facebook.com/pg/kebabnation/reviews/">
+          <SpreadButton>
+            <span className="text">Lee las opiniones</span>
+            <Image src={heartImage} alt="KëbabNation Landing" />
+          </SpreadButton>
+        </a>
       </InnerWrapper>
     </Drawer>
   );

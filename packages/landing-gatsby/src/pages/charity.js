@@ -30,7 +30,7 @@ export default () => {
   return (
     <ThemeProvider theme={charityTheme}>
       <Fragment>
-        <SEO title="Charity" />
+        <SEO title="KëbabNation" />
         <ResetCSS />
         <GlobalStyle />
         {/* Start charity wrapper section */}

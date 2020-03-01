@@ -88,12 +88,35 @@ export const ContentWrapper = styled.div`
   }
 `;
 
+export const RatingInfo = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+  color: ${themeGet('colors.menu', '#0D233E')};
+
+  .rating {
+    margin-right: 10px;
+    .star {
+      color: ${themeGet('colors.black', '#000')};
+    }
+    .star-o {
+      color: #e8e8e8;
+    }
+  }
+
+  img {
+    margin-left: 9px;
+  }
+`;
+
 export const TextArea = styled.div`
   width: 450px;
   align-self: center;
   padding-right: 45px;
-  @media only screen and (max-width: 1440px) {
+  @media only screen and (max-width: 1600px) {
     padding-top: 30px;
+  }
+  @media only screen and (max-width: 1440px) {
   }
   @media only screen and (max-width: 1360px) {
     width: 470px;
@@ -115,15 +138,20 @@ export const TextArea = styled.div`
     line-height: 70px;
     font-weight: 900;
     margin-bottom: 27px;
+    @media only screen and (max-width: 1600px) {
+      font-size: 42px;
+      line-height: 50px;
+      margin-bottom: 20px;
+    }
     @media only screen and (max-width: 1440px) {
-      font-size: 46px;
-      line-height: 64px;
+      font-size: 38px;
+      line-height: 48px;
       margin-bottom: 20px;
     }
     @media only screen and (max-width: 1360px) {
-      font-size: 42px;
-      line-height: 50px;
-      margin-bottom: 25px;
+      font-size: 38px;
+      line-height: 47px;
+      margin-bottom: 20px;
     }
     @media only screen and (max-width: 480px) {
       font-size: 36px;
@@ -138,9 +166,13 @@ export const TextArea = styled.div`
     font-weight: 400;
     color: ${themeGet('colors.text', '#294859')};
     margin-bottom: 22px;
-    @media only screen and (max-width: 1440px) {
+    @media only screen and (max-width: 1600px) {
       font-size: 22px;
       line-height: 40px;
+    }
+    @media only screen and (max-width: 1440px) {
+      font-size: 18px;
+      line-height: 30px;
     }
     @media only screen and (max-width: 1360px) {
       font-size: 18px;
@@ -152,8 +184,12 @@ export const TextArea = styled.div`
     font-size: 18px;
     line-height: 28px;
     margin-bottom: 45px;
-    @media only screen and (max-width: 1440px) {
+    @media only screen and (max-width: 1600px) {
       font-size: 16px;
+      margin-bottom: 40px;
+    }
+    @media only screen and (max-width: 1440px) {
+      font-size: 15px;
       margin-bottom: 40px;
     }
     @media only screen and (max-width: 1360px) {

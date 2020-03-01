@@ -249,6 +249,48 @@ export const PostArea = styled.div`
           margin-bottom: 20px;
         }
       }
+
+      .excerptbold {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        margin: 0 0 27px;
+        @media only screen and (max-width: 1600px) {
+          font-size: 17px;
+          line-height: 28px;
+        }
+        @media only screen and (max-width: 1440px) {
+          font-size: 16px;
+        }
+        @media only screen and (max-width: 1360px) {
+          font-size: 15px;
+        }
+        @media only screen and (max-width: 991px) {
+          margin-bottom: 20px;
+        }
+        a {
+          color: ${themeGet('colors.secondary', '#D50032')};
+        }
+      }
+
+      .excerptsmall {
+        font-size: 15px;
+        line-height: 22px;
+        margin: 0 0 27px;
+        @media only screen and (max-width: 1600px) {
+          font-size: 14px;
+          line-height: 22px;
+        }
+        @media only screen and (max-width: 1440px) {
+          font-size: 14px;
+        }
+        @media only screen and (max-width: 1360px) {
+          font-size: 14px;
+        }
+        @media only screen and (max-width: 991px) {
+          margin-bottom: 20px;
+        }
+      }
     }
 
     &:nth-child(2) {
@@ -267,10 +309,7 @@ export const PostArea = styled.div`
 
       .learn__more-btn {
         &::before {
-          background-color: ${themeGet(
-            'colors.primary2',
-            'rgba(252, 242, 43, 0.25)'
-          )};
+          background-color: ${themeGet('colors.primary', '#FCF22B')};
         }
       }
     }

@@ -1,19 +1,26 @@
 import React, { Fragment } from 'react';
+import Fade from 'react-reveal/Fade';
 import { useStaticQuery, graphql, Link } from 'gatsby';
 import { Icon } from 'react-icons-kit';
 import { chevronRight } from 'react-icons-kit/feather/chevronRight';
+import Scrollspy from 'react-scrollspy';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import Image from 'gatsby-image';
 import Text from 'common/src/components/Text';
 import Heading from 'common/src/components/Heading';
 import GlideCarousel from 'common/src/components/GlideCarousel';
 import GlideSlide from 'common/src/components/GlideCarousel/glideSlide';
+import Rating from 'common/src/components/Rating';
 import LeftBar from './leftBar';
 import BannerWrapper, {
   ContentWrapper,
+  RatingInfo,
   TextArea,
   ImageArea,
   HighlightedText,
 } from './bannerSection.style';
+
+import google from 'common/src/assets/image/charity/google-icon.png';
 
 const BannerSection = () => {
   const glideOptions = {
@@ -41,30 +48,33 @@ const BannerSection = () => {
 
   return (
     <BannerWrapper>
-      <LeftBar text="SCROLL DOWN" offset={81} sectionId="#feature" />
+      <LeftBar text="SCROLL DOWN" offset={81} sectionId="#inicio" />
       <ContentWrapper>
         <TextArea>
-          <HighlightedText className="highlighted_text">
-            <strong>NEWS</strong> 1 year. 100 Forever Families.
+          <Fade up>
+            <RatingInfo>
+              <Rating rating={4} />
+              4.8 de 5 por <img src={google} alt="Google Reviews" />
+            </RatingInfo>
+          </Fade>
+          {/* <HighlightedText className="highlighted_text">
+            <strong>PROMO</strong> En Enero muchas sorpresas
             <Icon icon={chevronRight} />
-          </HighlightedText>
-          <Heading
-            content="Bring a smile to
-          Their faces."
-          />
+          </HighlightedText> */}
+          <Heading content="Incluyente, creativo, delicioso." />
           <Heading
             as="h4"
-            content="A new way of giving back to 
-            your loved charities."
+            content="Así es KëbabNation, el lugar donde puedes abrir tu mente y tu hambre a algo diferente."
           />
-          <Text
-            content="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-          "
-          />
-          <Link className="learn__more-btn" to="/charity">
+          <Text content="Inspirados en la comida árabe, hemos creado una cocina urbana diferente con toques de otros países." />
+          {/* <Link className="learn__more-btn" to="#branch">
             <span className="hyphen" />
-            <span className="btn_text">Explore Our Project</span>
-          </Link>
+            <span className="btn_text">Explora KebabNation</span>
+          </Link> */}
+          <AnchorLink href="#inicio" offset="81" className="learn__more-btn">
+            <span className="hyphen" />
+            <span className="btn_text">Explora KebabNation</span>
+          </AnchorLink>
         </TextArea>
         <ImageArea>
           <GlideCarousel
@@ -82,7 +92,7 @@ const BannerSection = () => {
                         ? slide.thumb_url.childImageSharp.fluid
                         : {}
                     }
-                    alt={`Charity slide image ${slide.id}`}
+                    alt={`KebabNation Restaurante de Comida Árabe ${slide.id}`}
                     className="slide_image"
                   />
                 </GlideSlide>
