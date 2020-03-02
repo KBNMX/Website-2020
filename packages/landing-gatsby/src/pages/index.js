@@ -18,7 +18,7 @@ import FeatureSection from '../containers/Charity/FeatureSection';
 import BlogSection from '../containers/Charity/BlogSection';
 import Testimonial from '../containers/Charity/Testimonial';
 import Footer from '../containers/Charity/Footer';
-import WorkSection from '../containers/Charity/WorkSection';
+import WorkSection from '../containers/Charity/Arma123';
 // import Project from '../containers/Charity/Project';
 // import MilestoneBlock from '../containers/Charity/MilestoneBlock';
 // import PromotionBlock from '../containers/Charity/PromotionBlock';
@@ -55,7 +55,7 @@ export default () => {
             <AboutUs />
             <TituloInfo />
             <InfoSection />
-            <WorkSection />
+            {/* <WorkSection /> */}
             <News />
             <FeatureSection />
             <BlogSection />

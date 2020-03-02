@@ -28,8 +28,8 @@ const WorkSection = () => {
       }
     }
   `);
-
   const { title, slogan, features } = data.charityJson.workData;
+
   return (
     <SectionWrapper id="work">
       <Container width="1260px">
