@@ -59,8 +59,6 @@ firebase.json
 
 # dotenv environment variables file
 .env
-
-# packages/*/yarn.lock
 packages/*/package-lock.json
 node_modules
 examples/biz-website/public/
@@ -86,7 +84,7 @@ node_modules/
 .serverless/
 
 # lock files
-yarn.lock
+# yarn.lock
 package-lock.json
 
 # starters are special; we want to persist the lock files
